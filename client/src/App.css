@@ -1,0 +1,24 @@
+.titulo{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.librohistorial{
+  font-style: italic;
+  text-decoration:underline;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.botones{
+  display: flex;
+  justify-content: right;
+}
+
+.historicoLibro{
+  font-size: 12px;
+  line-height:0;
+  margin-bottom: 30px;
+}

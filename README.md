@@ -9,10 +9,12 @@ Base de datos: MongoDB, la conexion se realiza directo en mongoAtlas.
 
 Para ejecutar el FrontEnd:
 1. hacer cd a client.
-2. npm start.
+2. ejecutar npm i para intalar las dependencias.
+3. npm start.
 
 Para ejecutar el BackEnd:
 1. hacer cd a server.
-2. node app.js
+2. ejecutar npm i para intalar las dependencias.
+3. node app.js
 
 Acceder a la UI desde cualquier navegador mediante la direccion: http:localhost:3000

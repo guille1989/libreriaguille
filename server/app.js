@@ -30,5 +30,5 @@ app.use('/api/devoluciones', DevolucionesCrudes);
 app.use('/api/historial', HistorialLibroCrudes);
 
 app.listen(8000, () => {
-    console.log('Server escuchando puerto 8000')
+    console.log('Server escuchando por puerto 8000')
 })

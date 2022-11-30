@@ -8,6 +8,7 @@ const UsuariosCrudes = require('./rutes/usuariosCrudes');
 const PrestamosCrudes = require('./rutes/prestamosCrud');
 const DevolucionesCrudes = require('./rutes/devolucionCrude');
 const HistorialLibroCrudes = require('./rutes/historiallibro');
+const Autenticacion = require('./rutes/autenticacion');
 
 //Declaramos Middleware para POST
 app.use(Express.json());
@@ -28,6 +29,7 @@ app.use('/api/usuarios', UsuariosCrudes);
 app.use('/api/prestamos', PrestamosCrudes);
 app.use('/api/devoluciones', DevolucionesCrudes);
 app.use('/api/historial', HistorialLibroCrudes);
+app.use('/api/autenticacion', Autenticacion)
 
 app.listen(8000, () => {
     console.log('Server escuchando por puerto 8000')

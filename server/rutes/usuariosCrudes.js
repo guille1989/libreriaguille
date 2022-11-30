@@ -51,7 +51,8 @@ async function insertarUsuario(body){
     if(resultAux === null){
         let result = [];   
         result = new Usuarios({
-            nombre: body.nombre
+            nombre: body.nombre,
+            contrasenia: body.contrasenia
         })
         return await result.save()
     }else{

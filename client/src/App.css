@@ -4,6 +4,11 @@
   justify-content: center;
 }
 
+.botonsalir{
+  display: flex;
+  justify-content: right;
+}
+
 .librohistorial{
   font-style: italic;
   text-decoration:underline;
